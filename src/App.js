@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import "./App.css";
+
 import mockup from './mockuppp.png'
 function App() {
   return (
