@@ -9,15 +9,15 @@ function App() {
     </svg>
 </div>
       <div className="hh mt-[50px]   lg:flex justify-between">
-        <div className="circle lg:w-[600px] sm:w-[50px] justify-start align-left  lg:h-[600px] sm:h-[200px] rounded-[50%] bg-main">
-        <img src={mockup} className="h-[658px] ml-[50px] mb-[50px]  " alt="" />
+        <div className="circle lg:w-[600px] sm:w-[50px] justify-start align-left  lg:h-[600px] sm:h-[200px] rounded-[360px] bg-main">
+        <img src={mockup} className="lg:h-[658px] sm:h-[100px] ml-[50px]   " alt="" />
 
         </div>
 
 
         <div className="txt  mt-[10%]  text-center lg:mr-[10%]">
           <h1 className="text-main m-auto text-[5rem]">Nyaanime</h1>
-          <p className="text-main text-center text-2xl  ">
+          <p className="text-main text-center text-2xl">
             Latest anime episodes totally for free.
           </p>
           <br />
