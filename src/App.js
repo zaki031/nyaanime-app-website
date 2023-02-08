@@ -2,22 +2,22 @@
 import mockup from './mockuppp.png'
 function App() {
   return (
-    <div className="App bg-background  m-0 h-[100vh]  ">
+    <div className="App bg-background overflow-x-hidden   p-0 w-full lg:h-[100vh] sm:h-[250vh]  ">
      <div class="custom-shape-divider-top-1675793784">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" className="h-[45px] w-full" viewBox="0 0 1200 120" preserveAspectRatio="none">
         <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill fill-main "></path>
     </svg>
 </div>
-      <div className="hh mt-[50px]   flex justify-between">
-        <div className="circle w-[600px] justify-start align-left  h-[600px] rounded-[50%] bg-main">
+      <div className="hh mt-[50px]   lg:flex justify-between">
+        <div className="circle lg:w-[600px] sm:w-[50px] justify-start align-left  lg:h-[600px] sm:h-[200px] rounded-[50%] bg-main">
         <img src={mockup} className="h-[658px] ml-[50px] mb-[50px]  " alt="" />
 
         </div>
 
 
         <div className="txt  mt-[10%]  mr-[10%]">
-          <h1 className="text-main text-[7rem]">Nyaanime</h1>
-          <p className="text-main  text-3xl  ">
+          <h1 className="text-main text-[5rem]">Nyaanime</h1>
+          <p className="text-main text-2xl  ">
             Latest anime episodes totally for free.
           </p>
           <br />
