@@ -15,9 +15,9 @@ function App() {
         </div>
 
 
-        <div className="txt  mt-[10%]  mr-[10%]">
-          <h1 className="text-main text-[5rem]">Nyaanime</h1>
-          <p className="text-main text-2xl  ">
+        <div className="txt  mt-[10%]  text-center lg:mr-[10%]">
+          <h1 className="text-main m-auto text-[5rem]">Nyaanime</h1>
+          <p className="text-main text-center text-2xl  ">
             Latest anime episodes totally for free.
           </p>
           <br />
